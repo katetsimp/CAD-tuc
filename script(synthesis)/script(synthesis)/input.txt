@@ -1,0 +1,10 @@
+ENTITY adder IS
+VAR N = 3 %% Number of Bits in the Adder
+LIB FULL_ADDER
+PORT( IN A:{ SO, YOU,THINK}      %% A, MSB TO LSB
+IN B:{ CAN, TELL,HEAVEN}      %% B, MSB TO LSB
+IN Cin:{FROM}      %% Cin,
+OUT S:{ HELL, BLUE,SKY}      %% S, MSB TO LSB
+OUT COUT:{PAIN}      %% Cout,
+)
+END adder NETLIST
